@@ -47,14 +47,14 @@
     - openldap-devel
     - httpd-devel
     - yum-plugin-priorities
-  tags: build-deps
+  tags: php70-build-deps
 
 - name: Download broken dependencies ({gd,libicul}-last-devel replaces {gd,libicu}-devel respectively)
   get_url:
     dest: /tmp
     url: "{{ REMI6_URL }}/{{ item }}"
   with_items: "{{ LACK_DEPS }}"
-  tags: lack-deps
+  tags: php70-lack-deps
 
 - name: Remove obsoleted gd-devel, libicu-devel
   yum:
@@ -64,7 +64,7 @@
   with_items:
     - gd-devel
     - libicu
-  tags: lack-deps
+  tags: php70-lack-deps
 
 - name: Install broken dependencies
   yum:
@@ -72,14 +72,14 @@
     enablerepo: remi-php70
   become: yes
   with_items: "{{ LACK_DEPS }}"
-  tags: lack-deps
+  tags: php70-lack-deps
 
 - name: Install rest
   yum:
     name: firebird-devel
     enablerepo: remi-php70
   become: yes
-  tags: lack-deps
+  tags: php70-lack-deps
 
 - name: Get srpms
   get_url:
@@ -87,6 +87,7 @@
     url: https://rpms.remirepo.net/SRPMS/{{ item }}
   with_items:
     - php70-php-7.0.29-1.remi.src.rpm
+  tags: php70-srpm
 
 - name: Import remi's signatures
   rpm_key:
@@ -96,3 +97,4 @@
     - RPM-GPG-KEY-remi
     - RPM-GPG-KEY-remi2017
     - RPM-GPG-KEY-remi2018
+  tags: php70-srpm
