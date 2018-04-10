@@ -47,6 +47,7 @@
     - openldap-devel
     - httpd-devel
     - yum-plugin-priorities
+    - gdbm-devel
   tags: php70-build-deps
 
 - name: Download broken dependencies ({gd,libicul}-last-devel replaces {gd,libicu}-devel respectively)
@@ -86,7 +87,8 @@
     dest: "{{ ansible_user_dir }}/rpmbuild/SRPMS/"
     url: https://rpms.remirepo.net/SRPMS/{{ item }}
   with_items:
-    - php70-php-7.0.29-1.remi.src.rpm
+#   - php70-php-7.0.29-1.remi.src.rpm
+    - php-7.0.29-1.remi.src.rpm
   tags: php70-srpm
 
 - name: Import remi's signatures
