@@ -1,0 +1,9 @@
+- name: build-php-cent6
+  hosts: localhost
+  roles:
+    - role: base
+      tags: base
+    - role: php56
+      tags: php56
+    - role: php70
+      tags: php70

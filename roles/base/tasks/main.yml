@@ -1,0 +1,44 @@
+# roles/base.tasks.main
+---
+- name: Check minimum requirement
+  command: echo
+  failed_when: |
+    ansible_architecture          != 'x86_64'  or
+    ansible_distribution          != 'CentOS'  or
+    ansible_distribution_version  != '6.9'
+
+- name: set timezone to Asia/Tokyo
+  timezone:
+    name: Asia/Tokyo
+  become: yes
+
+- name: add repository location
+  yum:
+    name: https://rpms.remirepo.net/enterprise/remi-release-6.rpm
+  become: yes
+ 
+- name: yum update
+  yum:
+    name: '*'
+    state: latest
+  become: yes
+
+- name: Install docker
+  yum:
+    name: docker-io
+  become: yes
+
+- name: Install rpmbuild stuff
+  yum:
+    name: "{{ item }}"
+  become: yes
+  with_items:
+    - w3m
+    - libselinux-python
+    - rpmdevtools
+
+- name: Create directory tree for rpmbuild
+  command: rpmdev-setuptree
+  args:
+    chdir: "{{ ansible_user_dir }}"
+    

@@ -1,0 +1,98 @@
+# roles/php70.tasks.main
+---
+- name: Install dependencies for building SRPM
+  yum:
+    name: "{{ item }}"
+  become: yes
+  with_items:
+    - scl-utils-build
+    - help2man
+    - environment-modules
+    - bzip2-devel
+    - curl-devel
+    - pam-devel
+    - libstdc++-devel
+    - sqlite-devel
+    - libedit-devel
+    - autoconf
+    - automake
+    - gcc-c++
+    - libtool
+    - libtool-ltdl-devel
+    - systemtap-sdt-devel
+    - libacl-devel
+    - libc-client-devel
+    - postgresql-devel
+    - unixODBC-devel
+    - libxml2-devel
+    - net-snmp-devel
+    - libxslt-devel
+    - libxml2-devel
+    - libjpeg-devel
+    - libpng-devel
+    - freetype-devel
+    - libXpm-devel
+    - t1lib-devel
+    - gmp-devel
+    - tokyocabinet-devel
+    - libmcrypt-devel
+    - libtidy-devel
+    - freetds-devel
+    - aspell-devel
+    - recode-devel
+    - enchant-devel
+    - libsemanage
+    - db4-devel
+    - cyrus-sasl-devel
+    - openldap-devel
+    - httpd-devel
+    - yum-plugin-priorities
+  tags: build-deps
+
+- name: Download broken dependencies ({gd,libicul}-last-devel replaces {gd,libicu}-devel respectively)
+  get_url:
+    dest: /tmp
+    url: "{{ REMI6_URL }}/{{ item }}"
+  with_items: "{{ LACK_DEPS }}"
+  tags: lack-deps
+
+- name: Remove obsoleted gd-devel, libicu-devel
+  yum:
+    name: "{{ item }}"
+    state: absent
+  become: yes
+  with_items:
+    - gd-devel
+    - libicu
+  tags: lack-deps
+
+- name: Install broken dependencies
+  yum:
+    name: "/tmp/{{ item }}"
+    enablerepo: remi-php70
+  become: yes
+  with_items: "{{ LACK_DEPS }}"
+  tags: lack-deps
+
+- name: Install rest
+  yum:
+    name: firebird-devel
+    enablerepo: remi-php70
+  become: yes
+  tags: lack-deps
+
+- name: Get srpms
+  get_url:
+    dest: "{{ ansible_user_dir }}/rpmbuild/SRPMS/"
+    url: https://rpms.remirepo.net/SRPMS/{{ item }}
+  with_items:
+    - php70-php-7.0.29-1.remi.src.rpm
+
+- name: Import remi's signatures
+  rpm_key:
+    key: "https://rpms.remirepo.net/{{ item }}"
+  become: yes
+  with_items:
+    - RPM-GPG-KEY-remi
+    - RPM-GPG-KEY-remi2017
+    - RPM-GPG-KEY-remi2018

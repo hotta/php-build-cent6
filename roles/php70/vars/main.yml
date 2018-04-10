@@ -1,0 +1,7 @@
+# roles/php70/vars/main.yml
+---
+REMI6_URL: https://rpms.remirepo.net/enterprise/6/remi/x86_64
+LACK_DEPS:
+  - gd-last-devel-2.2.5-2.el6.remi.x86_64.rpm
+  - libicu-last-devel-50.1.2-11.el6.remi.x86_64.rpm
+  - libicu-last-50.1.2-11.el6.remi.x86_64.rpm

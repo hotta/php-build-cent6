@@ -1,0 +1,306 @@
+vagrant@centos6:~$ LANG=C rpmbuild --rebuild rpmbuild/SRPMS/php70-php-7.0.29-1.remi.src.rpm
+Installing rpmbuild/SRPMS/php70-php-7.0.29-1.remi.src.rpm
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+warning: user remi does not exist - using root
+warning: group remi does not exist - using root
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.pawvUH
++ umask 022
++ cd /home/vagrant/rpmbuild/BUILD
++ LANG=C
++ export LANG
++ unset DISPLAY
++ : Building php-7.0.29-1.el6 with systemd=0 imap=1 interbase=1 mcrypt=1 freetds=1 sqlite3=1 tidy=1 zip=0
++ cd /home/vagrant/rpmbuild/BUILD
++ rm -rf php-7.0.29
++ /usr/bin/xz -dc /home/vagrant/rpmbuild/SOURCES/php-7.0.29.tar.xz
++ /bin/tar -xf -
++ STATUS=0
++ '[' 0 -ne 0 ']'
++ cd php-7.0.29
++ /bin/chmod -Rf a+rX,u+w,g-w,o-w .
++ echo 'Patch #1 (php-7.1.7-httpd.patch):'
+Patch #1 (php-7.1.7-httpd.patch):
++ /bin/cat /home/vagrant/rpmbuild/SOURCES/php-7.1.7-httpd.patch
++ /usr/bin/patch -p1 -b --suffix .mpmcheck --fuzz=0
+patching file sapi/apache2handler/config.m4
++ echo 'Patch #2 (php-7.0.17-interbase.patch):'
+Patch #2 (php-7.0.17-interbase.patch):
++ /bin/cat /home/vagrant/rpmbuild/SOURCES/php-7.0.17-interbase.patch
++ /usr/bin/patch -p1 -b --suffix .fb_config --fuzz=0
+patching file ext/interbase/config.m4
+patching file ext/pdo_firebird/config.m4
++ echo 'Patch #5 (php-7.0.0-includedir.patch):'
+Patch #5 (php-7.0.0-includedir.patch):
++ /bin/cat /home/vagrant/rpmbuild/SOURCES/php-7.0.0-includedir.patch
++ /usr/bin/patch -p1 -b --suffix .includedir --fuzz=0
+patching file configure.in
+Hunk #1 succeeded at 1252 (offset 7 lines).
++ echo 'Patch #6 (php-5.6.3-embed.patch):'
+Patch #6 (php-5.6.3-embed.patch):
++ /bin/cat /home/vagrant/rpmbuild/SOURCES/php-5.6.3-embed.patch
++ /usr/bin/patch -p1 -b --suffix .embed --fuzz=0
+patching file sapi/embed/config.m4
+patching file scripts/php-config.in
++ echo 'Patch #7 (php-5.3.0-recode.patch):'
+Patch #7 (php-5.3.0-recode.patch):
++ /bin/cat /home/vagrant/rpmbuild/SOURCES/php-5.3.0-recode.patch
++ /usr/bin/patch -p1 -b --suffix .recode --fuzz=0
+patching file ext/recode/config9.m4
++ echo 'Patch #8 (php-7.0.2-libdb.patch):'
+Patch #8 (php-7.0.2-libdb.patch):
++ /bin/cat /home/vagrant/rpmbuild/SOURCES/php-7.0.2-libdb.patch
++ /usr/bin/patch -p1 -b --suffix .libdb --fuzz=0
+patching file ext/dba/config.m4
+patching file ext/dba/dba.c
++ echo 'Patch #9 (php-7.0.7-curl.patch):'
+Patch #9 (php-7.0.7-curl.patch):
++ /bin/cat /home/vagrant/rpmbuild/SOURCES/php-7.0.7-curl.patch
++ /usr/bin/patch -p1 -b --suffix .curltls --fuzz=0
+patching file ext/curl/interface.c
+Hunk #1 succeeded at 1260 (offset 3 lines).
++ echo 'Patch #40 (php-7.0.17-dlopen.patch):'
+Patch #40 (php-7.0.17-dlopen.patch):
++ /bin/cat /home/vagrant/rpmbuild/SOURCES/php-7.0.17-dlopen.patch
++ /usr/bin/patch -p1 -b --suffix .dlopen --fuzz=0
+patching file sapi/litespeed/lsapilib.c
+patching file Zend/zend_portability.h
++ echo 'Patch #42 (php-7.0.0-systzdata-v14.patch):'
+Patch #42 (php-7.0.0-systzdata-v14.patch):
++ /bin/cat /home/vagrant/rpmbuild/SOURCES/php-7.0.0-systzdata-v14.patch
++ /usr/bin/patch -p1 -b --suffix .systzdata --fuzz=0
+patching file ext/date/lib/parse_tz.c
+patching file ext/date/lib/timelib.m4
++ echo 'Patch #43 (php-5.4.0-phpize.patch):'
+Patch #43 (php-5.4.0-phpize.patch):
++ /bin/cat /home/vagrant/rpmbuild/SOURCES/php-5.4.0-phpize.patch
++ /usr/bin/patch -p1 -b --suffix .headers --fuzz=0
+patching file scripts/phpize.in
++ echo 'Patch #46 (php-7.0.0-fixheader.patch):'
+Patch #46 (php-7.0.0-fixheader.patch):
++ /bin/cat /home/vagrant/rpmbuild/SOURCES/php-7.0.0-fixheader.patch
++ /usr/bin/patch -p1 -b --suffix .fixheader --fuzz=0
+patching file configure.in
+Hunk #1 succeeded at 1285 (offset 7 lines).
+Hunk #2 succeeded at 1296 (offset 7 lines).
++ echo 'Patch #47 (php-5.6.3-phpinfo.patch):'
+Patch #47 (php-5.6.3-phpinfo.patch):
++ /bin/cat /home/vagrant/rpmbuild/SOURCES/php-5.6.3-phpinfo.patch
++ /usr/bin/patch -p1 -b --suffix .phpinfo --fuzz=0
+patching file ext/standard/info.c
+patching file ext/standard/tests/general_functions/phpinfo.phpt
++ echo 'Patch #91 (php-5.6.3-oci8conf.patch):'
+Patch #91 (php-5.6.3-oci8conf.patch):
++ /bin/cat /home/vagrant/rpmbuild/SOURCES/php-5.6.3-oci8conf.patch
++ /usr/bin/patch -p1 -b --suffix .remi-oci8 --fuzz=0
+patching file ext/ldap/php_ldap.h
+patching file ext/oci8/config.m4
+Hunk #1 succeeded at 372 (offset -4 lines).
+patching file ext/pdo_oci/config.m4
+Hunk #1 succeeded at 119 (offset 15 lines).
++ echo 'Patch #300 (php-7.0.10-datetests.patch):'
+Patch #300 (php-7.0.10-datetests.patch):
++ /bin/cat /home/vagrant/rpmbuild/SOURCES/php-7.0.10-datetests.patch
++ /usr/bin/patch -p1 -b --suffix .datetests --fuzz=0
+patching file ext/date/tests/bug66985.phpt
+patching file ext/date/tests/strtotime3-64bit.phpt
+patching file ext/date/tests/bug33414-2.phpt
++ cp Zend/LICENSE Zend/ZEND_LICENSE
++ cp TSRM/LICENSE TSRM_LICENSE
++ cp sapi/fpm/LICENSE fpm_LICENSE
++ cp ext/mbstring/libmbfl/LICENSE libmbfl_LICENSE
++ cp ext/mbstring/oniguruma/COPYING oniguruma_COPYING
++ cp ext/mbstring/ucgendat/OPENLDAP_LICENSE ucgendat_LICENSE
++ cp ext/fileinfo/libmagic/LICENSE libmagic_LICENSE
++ cp ext/phar/LICENSE phar_LICENSE
++ cp ext/bcmath/libbcmath/COPYING.LIB libbcmath_COPYING
++ cp ext/date/lib/LICENSE.rst timelib_LICENSE
++ mkdir build-fpm build-apache build-embedded build-cgi
++ rm ext/date/tests/timezone_location_get.phpt
++ rm ext/date/tests/timezone_version_get.phpt
++ rm ext/date/tests/timezone_version_get_basic1.phpt
++ rm ext/sockets/tests/mcast_ipv4_recv.phpt ext/sockets/tests/mcast_ipv6_recv.phpt
++ rm ext/standard/tests/file/file_get_contents_error001.phpt
++ rm Zend/tests/bug54268.phpt
++ rm Zend/tests/bug68412.phpt
+++ sed -n '/#define PHP_VERSION /{s/.* "//;s/".*$//;p}' main/php_version.h
++ pver=7.0.29
++ test x7.0.29 '!=' x7.0.29
+++ sed -n '/#define PHP_API_VERSION/{s/.* //;p}' main/php.h
++ vapi=20151012
++ test x20151012 '!=' x20151012
+++ sed -n '/#define ZEND_MODULE_API_NO/{s/^[^0-9]*//;p;}' Zend/zend_modules.h
++ vzend=20151012
++ test x20151012 '!=' x20151012
+++ sed -n '/#define PDO_DRIVER_API/{s/.*[       ]//;p}' ext/pdo/php_pdo_driver.h
++ vpdo=20150127
++ test x20150127 '!=' x20150127
+++ sed -n '/#define PHP_OCI8_VERSION /{s/.* "//;s/".*$//;p}' ext/oci8/php_oci8.h
++ ver=2.1.8
++ test 2.1.8 '!=' 2.1.8
++ rm -f TSRM/tsrm_win32.h TSRM/tsrm_config.w32.h Zend/zend_config.w32.h ext/mysqlnd/config-win.h ext/standard/winver.h main/win32_internal_function_disabled.h main/win95nt.h
++ find . -name '*.[ch]' -exec chmod 644 '{}' ';'
++ chmod 644 README.EXT_SKEL README.GIT-RULES README.MAILINGLIST_RULES README.NEW-OUTPUT-API README.PARAMETER_PARSING_API README.REDIST.BINS README.RELEASE_PROCESS README.SELF-CONTAINED-EXTENSIONS README.STREAMS README.SUBMITTING_PATCH README.TESTING README.TESTING2 README.UNIX-BUILD-SYSTEM README.WIN32-BUILD-SYSTEM README.input_filter README.md README.namespaces
++ sed -e s/@PHP_APIVER@/20151012-64/ -e s/@PHP_ZENDVER@/20151012-64/ -e s/@PHP_PDOVER@/20150127-64/ -e s/@PHP_VERSION@/7.0.29/ -e s:@LIBDIR@:/usr/lib64: -e s:@ETCDIR@:/etc: -e s:@INCDIR@:/usr/include: -e s:@BINDIR@:/usr/bin: -e s:@SCL@:: /home/vagrant/rpmbuild/SOURCES/macros.php
++ tee macros.php
+#
+# Interface versions exposed by PHP:
+#
+%php_core_api 20151012-64
+%php_zend_api 20151012-64
+%php_pdo_api  20150127-64
+%php_version  7.0.29
+
+%php_extdir   /usr/lib64/php/modules
+
+%php_inidir   /etc/php.d
+
+%php_incldir  /usr/include/php
+
+%__php        /usr/bin/php
+
++ cp /home/vagrant/rpmbuild/SOURCES/10-opcache.ini 10-opcache.ini
++ tail -n 5 10-opcache.ini
+; Prevent name collisions in chroot'ed environment.
+; This directive prevents file name collisions in different "chroot"
+; environments. It should be enabled for sites that may serve requests in
+; different "chroot" environments.
+;opcache.validate_root=0
++ cp /home/vagrant/rpmbuild/SOURCES/opcache-default.blacklist .
++ sed -e s:/etc:/etc: -i 10-opcache.ini
++ cp /home/vagrant/rpmbuild/SOURCES/20-oci8.ini 20-oci8.ini
++ : SCL macro not defined
++ exit 1
+error: Bad exit status from /var/tmp/rpm-tmp.pawvUH (%prep)
+
+
+RPM build errors:
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    user remi does not exist - using root
+    group remi does not exist - using root
+    Bad exit status from /var/tmp/rpm-tmp.pawvUH (%prep)
