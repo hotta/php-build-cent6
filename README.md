@@ -12,7 +12,7 @@ $ cd php-build-cent6
 ## To build php56
 
 ```bash
-$ ansible-playbook -i hosts site.yml --tags=base,php56
+$ ansible-playbook -i hosts site.yml --tags=base,php56-all
 $ cd
 $ rpmbuild --rebuild ~/rpmbuild/SRPMS/php56-php-5.6.35-1.remi.src.rpm
 ```
@@ -22,7 +22,7 @@ $ rpmbuild --rebuild ~/rpmbuild/SRPMS/php56-php-5.6.35-1.remi.src.rpm
 # for PHP70
 
 ```bash
-$ ansible-playbook -i hosts site.yml --tags=base,php70
+$ ansible-playbook -i hosts site.yml --tags=base,php70-all
 $ cd
 $ rpmbuild --rebuild ~/rpmbuild/SRPMS/php70-php-7.0.29-1.remi.src.rpm
 ```

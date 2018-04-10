@@ -4,6 +4,6 @@
     - role: base
       tags: base
     - role: php56
-      tags: php56
+      tags: php56-all
     - role: php70
-      tags: php70
+      tags: php70-all

@@ -1,0 +1,14 @@
+Loaded plugins: fastestmirror, priorities, security
+Loading mirror speeds from cached hostfile
+ * base: ftp.iij.ad.jp
+ * epel: ftp.jaist.ac.jp
+ * extras: ftp.iij.ad.jp
+ * remi-safe: mirror.reconn.ru
+ * updates: ftp.iij.ad.jp
+repo id     repo name                                                     status
+base        CentOS-6 - Base                                                6706
+epel        Extra Packages for Enterprise Linux 6 - x86_64                12492
+extras      CentOS-6 - Extras                                                53
+remi-safe   Safe Remi's RPM repository for Enterprise Linux 6 - x86_64     2328
+updates     CentOS-6 - Updates                                             1185
+repolist: 22764
