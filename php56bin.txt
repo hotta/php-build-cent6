@@ -1,0 +1,32 @@
+$ sudo yum --enablerepo=remi-php56 install php
+$ rpm -qa|grep php
+php-common-5.6.35-1.el6.remi.x86_64
+php-pecl-zip-1.15.2-1.el6.remi.5.6.x86_64
+php-pecl-jsonc-1.3.10-2.el6.remi.5.6.x86_64
+php-5.6.35-1.el6.remi.x86_64
+php-cli-5.6.35-1.el6.remi.x86_64
+$ rpm -ql php
+/etc/httpd/conf.d/php.conf
+/usr/lib64/httpd/modules/libphp5-zts.so
+/usr/lib64/httpd/modules/libphp5.so
+/var/lib/php/session
+/var/lib/php/wsdlcache
+/var/www/icons/php.gif
+$ rpm -ql php-cli
+/usr/bin/phar
+/usr/bin/phar.phar
+/usr/bin/php
+/usr/bin/php-cgi
+/usr/bin/phpize
+/usr/bin/zts-php
+/usr/share/doc/php-cli-5.6.35
+/usr/share/doc/php-cli-5.6.35/README
+/usr/share/doc/php-cli-5.6.35/README.FastCGI
+/usr/share/man/man1/phar.1.gz
+/usr/share/man/man1/phar.phar.1.gz
+/usr/share/man/man1/php-cgi.1.gz
+/usr/share/man/man1/php.1.gz
+/usr/share/man/man1/phpize.1.gz
+/usr/share/man/man1/zts-php.1.gz
+/usr/share/man/man1/zts-phpize.1.gz
+

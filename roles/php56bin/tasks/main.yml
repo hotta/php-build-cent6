@@ -1,0 +1,9 @@
+# roles/php56bin/tasks/main.yml
+---
+- name: Install php56
+  yum:
+    name: "{{ item }}"
+    enablerepo: remi-php56
+  become: yes
+  with_items:
+    - php

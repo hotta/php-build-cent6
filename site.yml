@@ -3,7 +3,9 @@
   roles:
     - role: base
       tags: base
-    - role: php56
-      tags: php56-all
-    - role: php70
-      tags: php70-all
+    - role: php56src
+      tags: php56src
+    - role: php70src
+      tags: php70src
+    - role: php56bin
+      tags: php56bin
