@@ -9,7 +9,7 @@ $ git clone https://github.com/hotta/php-build-cent6.git
 $ cd php-build-cent6
 ```
 
-## To build php56
+## To build php56(experimental)
 
 ```bash
 $ ansible-playbook -i hosts site.yml --tags=base,php56-all
@@ -17,9 +17,7 @@ $ cd
 $ rpmbuild --rebuild ~/rpmbuild/SRPMS/php56-php-5.6.35-1.remi.src.rpm
 ```
 
-## To build php70
-
-# for PHP70
+## To build php70(experimental)
 
 ```bash
 $ ansible-playbook -i hosts site.yml --tags=base,php70-all
