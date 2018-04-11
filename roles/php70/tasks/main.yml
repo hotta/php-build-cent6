@@ -48,6 +48,7 @@
     - httpd-devel
     - yum-plugin-priorities
     - gdbm-devel
+    - php72-build
   tags: php70-build-deps
 
 - name: Download broken dependencies ({gd,libicul}-last-devel replaces {gd,libicu}-devel respectively)
