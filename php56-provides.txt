@@ -1,0 +1,271 @@
+読み込んだプラグイン:fastestmirror, security
+Loading mirror speeds from cached hostfile
+ * base: ftp.iij.ad.jp
+ * epel: ftp.jaist.ac.jp
+ * extras: ftp.iij.ad.jp
+ * remi-safe: mirrors.thzhost.com
+ * updates: ftp.iij.ad.jp
+============================== N/S Matched: php56 ==============================
+php56-php-pecl-dom-varimport-devel.x86_64 : php56-php-pecl-dom-varimport
+                                          : developer files (header)
+php56-php-pecl-judy-devel.x86_64 : php56-php-pecl-judy developer files (header)
+php56-php-pecl-pcsc-devel.x86_64 : php56-php-pecl-pcsc developer files (header)
+php56-php-pecl-propro-devel.x86_64 : php56-php-pecl-propro developer files
+                                   : (header)
+php56-php-pecl-psr-devel.x86_64 : php56-php-pecl-psr developer files (header)
+php56-php-pecl-raphf-devel.x86_64 : php56-php-pecl-raphf developer files
+                                  : (header)
+php56-php-pecl-xmldiff-devel.x86_64 : php56-php-pecl-xmldiff developer files
+                                    : (header)
+php56-runtime.x86_64 : Package that handles php56 Software Collection.
+php56-scldevel.x86_64 : Package shipping development files for php56
+php56.x86_64 : Package that installs PHP 5.6
+php56-build.x86_64 : Package shipping basic build configuration
+php56-mysqlnd-qc-panel.noarch : Mysqlnd Query Cache Monitor
+php56-php.x86_64 : PHP scripting language for creating dynamic web sites
+php56-php-bcmath.x86_64 : A module for PHP applications for using the bcmath
+                        : library
+php56-php-brotli.x86_64 : Brotli Extension for PHP
+php56-php-channel-horde.noarch : Adds pear.horde.org channel to PEAR
+php56-php-cli.x86_64 : Command-line interface for PHP
+php56-php-common.x86_64 : Common files for PHP
+php56-php-dba.x86_64 : A database abstraction layer module for PHP applications
+php56-php-dbg.x86_64 : The interactive PHP debugger
+php56-php-devel.x86_64 : Files needed for building PHP extensions
+php56-php-embedded.x86_64 : PHP library for embedding in applications
+php56-php-enchant.x86_64 : Enchant spelling extension for PHP applications
+php56-php-fpm.x86_64 : PHP FastCGI Process Manager
+php56-php-gd.x86_64 : A module for PHP applications for using the gd graphics
+                    : library
+php56-php-gmp.x86_64 : A module for PHP applications for using the GNU MP
+                     : library
+php56-php-horde-horde-lz4.x86_64 : Horde LZ4 Compression Extension
+php56-php-imap.x86_64 : A module for PHP applications that use IMAP
+php56-php-interbase.x86_64 : A module for PHP applications that use
+                           : Interbase/Firebird databases
+php56-php-intl.x86_64 : Internationalization extension for PHP applications
+php56-php-ioncube-loader.x86_64 : Loader for ionCube Encoded Files with ionCube
+                                : 24 support
+php56-php-ldap.x86_64 : A module for PHP applications that use LDAP
+php56-php-libvirt.x86_64 : PHP language binding for Libvirt
+php56-php-libvirt-doc.noarch : Document of php-libvirt
+php56-php-litespeed.x86_64 : LiteSpeed Web Server PHP support
+php56-php-lz4.x86_64 : LZ4 Extension for PHP
+php56-php-magickwand.x86_64 : PHP API for ImageMagick
+php56-php-mbstring.x86_64 : A module for PHP applications which need multi-byte
+                          : string handling
+php56-php-mcrypt.x86_64 : Standard PHP module provides mcrypt library support
+php56-php-mssql.x86_64 : MSSQL database module for PHP
+php56-php-mysqlnd.x86_64 : A module for PHP applications that use MySQL
+                         : databases
+php56-php-oci8.x86_64 : A module for PHP applications that use OCI8 databases
+php56-php-odbc.x86_64 : A module for PHP applications that use ODBC databases
+php56-php-opcache.x86_64 : The Zend OPcache
+php56-php-pdo.x86_64 : A database access abstraction module for PHP applications
+php56-php-pear.noarch : PHP Extension and Application Repository framework
+php56-php-pecl-amqp.x86_64 : Communicate with any AMQP compliant server
+php56-php-pecl-apcu.x86_64 : APC User Cache
+php56-php-pecl-apcu-devel.x86_64 : APCu developer files (header)
+php56-php-pecl-apfd.x86_64 : Always Populate Form Data
+php56-php-pecl-apm.x86_64 : Alternative PHP Monitor
+php56-php-pecl-ares.x86_64 : Asynchronous Resolver
+php56-php-pecl-bbcode.x86_64 : BBCode parsing Extension
+php56-php-pecl-binpack.x86_64 : Binpack for PHP
+php56-php-pecl-bitset.x86_64 : BITSET library
+php56-php-pecl-blenc.x86_64 : BLowfish ENCryption for PHP Scripts
+php56-php-pecl-cairo.x86_64 : Cairo Graphics Library Extension
+php56-php-pecl-cairo-devel.x86_64 : Cairo Graphics Library Extension developer
+                                  : files
+php56-php-pecl-cassandra.x86_64 : DataStax PHP Driver for Apache Cassandra
+php56-php-pecl-chdb.x86_64 : A fast database for constant data
+php56-php-pecl-couchbase.x86_64 : Couchbase Server PHP extension
+php56-php-pecl-couchbase2.x86_64 : Couchbase Server PHP extension
+php56-php-pecl-crypto.x86_64 : Wrapper for OpenSSL Crypto Library
+php56-php-pecl-dbase.x86_64 : dBase database file access functions
+php56-php-pecl-dbus.x86_64 : Extension for interaction with DBUS busses
+php56-php-pecl-dio.x86_64 : Direct I/O functions
+php56-php-pecl-dom-varimport.x86_64 : Convert nested arrays into DOMDocument
+php56-php-pecl-doublemetaphone.x86_64 : Provide Double Metaphone functionality
+php56-php-pecl-druid.x86_64 : A Druid driver for PHP
+php56-php-pecl-eio.x86_64 : Provides interface to the libeio library
+php56-php-pecl-env.x86_64 : Load environment variables
+php56-php-pecl-ev.x86_64 : Provides interface to libev library
+php56-php-pecl-event.x86_64 : Provides interface to libevent library
+php56-php-pecl-expect.x86_64 : PHP extension for expect library
+php56-php-pecl-fann.x86_64 : Wrapper for FANN Library
+php56-php-pecl-gearman.x86_64 : PHP wrapper to libgearman
+php56-php-pecl-gender.x86_64 : Gender Extension
+php56-php-pecl-geoip.x86_64 : Extension to map IP addresses to geographic places
+php56-php-pecl-geospatial.x86_64 : PHP Extension to handle common geospatial
+                                 : functions
+php56-php-pecl-gmagick.x86_64 : Provides a wrapper to the GraphicsMagick library
+php56-php-pecl-gnupg.x86_64 : Wrapper around the gpgme library
+php56-php-pecl-graphdat.x86_64 : Troubleshoot application and server performance
+php56-php-pecl-haru.x86_64 : Haru PDF functions
+php56-php-pecl-hidef.x86_64 : Constants for real
+php56-php-pecl-hprose.x86_64 : Hprose for PHP
+php56-php-pecl-hrtime.x86_64 : High resolution timing
+php56-php-pecl-http.x86_64 : Extended HTTP support
+php56-php-pecl-http-devel.x86_64 : Extended HTTP support developer files
+                                 : (header)
+php56-php-pecl-igbinary.x86_64 : Replacement for the standard PHP serializer
+php56-php-pecl-igbinary-devel.x86_64 : Igbinary developer files (header)
+php56-php-pecl-imagick.x86_64 : Extension to create and modify images using
+                              : ImageMagick
+php56-php-pecl-imagick-devel.x86_64 : imagick extension developer files (header)
+php56-php-pecl-inclued.x86_64 : Clued-in about your inclueds
+php56-php-pecl-inotify.x86_64 : Inotify
+php56-php-pecl-ip2location.x86_64 : Get geo location information of an IP
+                                  : address
+php56-php-pecl-ircclient.x86_64 : IRC Client
+php56-php-pecl-json-post.x86_64 : JSON POST handler
+php56-php-pecl-jsonc.x86_64 : Support for JSON serialization
+php56-php-pecl-jsonc-devel.x86_64 : JSON developer files (header)
+php56-php-pecl-jsond.x86_64 : JavaScript Object Notation
+php56-php-pecl-jsond-devel.x86_64 : JSOND developer files (header)
+php56-php-pecl-judy.x86_64 : PHP Judy implements sparse dynamic arrays
+php56-php-pecl-krb5.x86_64 : Kerberos authentification extension
+php56-php-pecl-krb5-devel.x86_64 : Kerberos extension developer files (header)
+php56-php-pecl-leveldb.x86_64 : LevelDB PHP bindings
+php56-php-pecl-libsodium.x86_64 : Wrapper for the Sodium cryptographic library
+php56-php-pecl-lua.x86_64 : Embedded lua interpreter
+php56-php-pecl-lzf.x86_64 : Extension to handle LZF de/compression
+php56-php-pecl-mailparse.x86_64 : PHP PECL package for parsing and working with
+                                : email messages
+php56-php-pecl-memcache.x86_64 : Extension to work with the Memcached caching
+                               : daemon
+php56-php-pecl-memcached.x86_64 : Extension to work with the Memcached caching
+                                : daemon
+php56-php-pecl-memprof.x86_64 : Memory usage profiler
+php56-php-pecl-mogilefs.x86_64 : PHP client library to communicate with the
+                               : MogileFS storage
+php56-php-pecl-molten.x86_64 : Extension for application tracing
+php56-php-pecl-mongo.x86_64 : PHP MongoDB database driver
+php56-php-pecl-mongodb.x86_64 : MongoDB driver for PHP
+php56-php-pecl-msgpack.x86_64 : API for communicating with MessagePack
+                              : serialization
+php56-php-pecl-msgpack-devel.x86_64 : MessagePack developer files (header)
+php56-php-pecl-mustache.x86_64 : Mustache templating language
+php56-php-pecl-mysqlnd-ms.x86_64 : A replication and load balancing plugin for
+                                 : mysqlnd
+php56-php-pecl-mysqlnd-ms-devel.x86_64 : Mysqlnd_ms developer files (header)
+php56-php-pecl-mysqlnd-qc.x86_64 : A query cache plugin for mysqlnd
+php56-php-pecl-mysqlnd-qc-devel.x86_64 : Mysqlnd_qc developer files (header)
+php56-php-pecl-ncurses.x86_64 : Terminal screen handling and optimization
+                              : package
+php56-php-pecl-newt.x86_64 : Extension for Red Hat Newt window library
+php56-php-pecl-oauth.x86_64 : PHP OAuth consumer extension
+php56-php-pecl-parsekit.x86_64 : PHP Opcode Analyser
+php56-php-pecl-pcs.x86_64 : PHP Code Service
+php56-php-pecl-pcs-devel.x86_64 : PHP Code Service (header)
+php56-php-pecl-pcsc.x86_64 : An extension for PHP using the winscard PC/SC API
+php56-php-pecl-pdflib.x86_64 : Package for generating PDF files
+php56-php-pecl-phk.x86_64 : Accelerator for Automap and PHK
+php56-php-pecl-propro.x86_64 : Property proxy
+php56-php-pecl-protobuf.x86_64 : Mechanism for serializing structured data
+php56-php-pecl-protocolbuffers.x86_64 : Protocol buffers in PHP
+php56-php-pecl-psr.x86_64 : PSR interfaces
+php56-php-pecl-quickhash.x86_64 : Set of specific strongly-typed classes for
+                                : sets and hashing
+php56-php-pecl-radius.x86_64 : Radius client library
+php56-php-pecl-raphf.x86_64 : Resource and persistent handles factory
+php56-php-pecl-rar.x86_64 : PHP extension for reading RAR archives
+php56-php-pecl-rdkafka.x86_64 : Kafka client based on librdkafka
+php56-php-pecl-redis.x86_64 : Extension for communicating with the Redis
+                            : key-value store
+php56-php-pecl-redis4.x86_64 : Extension for communicating with the Redis
+                             : key-value store
+php56-php-pecl-riak.x86_64 : Riak database PHP extension
+php56-php-pecl-rrd.x86_64 : PHP Bindings for rrdtool
+php56-php-pecl-runkit.x86_64 : Mangle with user defined functions and classes
+php56-php-pecl-scream.x86_64 : Break the silence operator
+php56-php-pecl-scrypt.x86_64 : Scrypt hashing function
+php56-php-pecl-sdl.x86_64 : Simple DirectMedia Layer for PHP
+php56-php-pecl-seaslog.x86_64 : A effective,fast,stable log extension for PHP
+php56-php-pecl-selinux.x86_64 : SELinux binding for PHP scripting language
+php56-php-pecl-solr.x86_64 : API orientée objet pour Apache Solr
+php56-php-pecl-solr2.x86_64 : API orientée objet pour Apache Solr
+php56-php-pecl-sphinx.x86_64 : PECL extension for Sphinx SQL full-text search
+                             : engine
+php56-php-pecl-spl-types.x86_64 : Standard PHP Library, Types Addon
+php56-php-pecl-sqlite.x86_64 : Extension for the SQLite V2 Embeddable SQL
+                             : Database Engine
+php56-php-pecl-ssdeep.x86_64 : Wrapper for libfuzzy library
+php56-php-pecl-ssh2.x86_64 : Bindings for the libssh2 library
+php56-php-pecl-stats.x86_64 : Routines for statistical computation
+php56-php-pecl-stomp.x86_64 : Stomp client extension
+php56-php-pecl-strict.x86_64 : Strict scalar parameter type hint
+php56-php-pecl-svn.x86_64 : PHP Bindings for the Subversion Revision control
+                          : system
+php56-php-pecl-swoole.x86_64 : PHP's asynchronous concurrent distributed
+                             : networking framework
+php56-php-pecl-swoole2.x86_64 : PHP's asynchronous concurrent distributed
+                              : networking framework
+php56-php-pecl-sync.x86_64 : Named and unnamed synchronization objects
+php56-php-pecl-tcpwrap.x86_64 : Tcpwrappers binding
+php56-php-pecl-termbox.x86_64 : A termbox wrapper for PHP
+php56-php-pecl-timecop.x86_64 : Time travel and freezing extension
+php56-php-pecl-trace.x86_64 : Trace is a low-overhead tracing tool for PHP
+php56-php-pecl-trader.x86_64 : Technical Analysis for traders
+php56-php-pecl-uopz.x86_64 : User Operations for Zend
+php56-php-pecl-uploadprogress.x86_64 : An extension to track progress of a file
+                                     : upload
+php56-php-pecl-uri-template.x86_64 : URI Template PHP Extension
+php56-php-pecl-uuid.x86_64 : Universally Unique Identifier extension for PHP
+php56-php-pecl-vld.x86_64 : Dump the internal representation of PHP scripts
+php56-php-pecl-weakref.x86_64 : Implementation of weak references
+php56-php-pecl-xattr.x86_64 : Extended attributes
+php56-php-pecl-xdebug.x86_64 : PECL package for debugging PHP scripts
+php56-php-pecl-xdiff.x86_64 : File differences/patches
+php56-php-pecl-xhprof.x86_64 : PHP extension for XHProf, a Hierarchical Profiler
+php56-php-pecl-xmldiff.x86_64 : XML diff and merge
+php56-php-pecl-xmp.x86_64 : Bindings for the libxmp library
+php56-php-pecl-xrange.x86_64 : Numeric iterator primitives
+php56-php-pecl-xslcache.x86_64 : XSL extension that caches the parsed XSL style
+                               : sheet
+php56-php-pecl-xxtea.x86_64 : XXTEA encryption algorithm extension for PHP
+php56-php-pecl-yac.x86_64 : Lockless user data cache
+php56-php-pecl-yaf.x86_64 : Yet Another Framework
+php56-php-pecl-yaml.x86_64 : PHP Bindings for yaml
+php56-php-pecl-yar.x86_64 : Light, concurrent RPC framework
+php56-php-pecl-yaz.x86_64 : Z39.50/SRU client
+php56-php-pecl-yp.x86_64 : YP/NIS functions
+php56-php-pecl-zip.x86_64 : Une extension de gestion des ZIP
+php56-php-pecl-zmq.x86_64 : ZeroMQ messaging
+php56-php-pgsql.x86_64 : A PostgreSQL database module for PHP
+php56-php-phalcon.x86_64 : Phalcon Framework
+php56-php-phalcon2.x86_64 : Phalcon Framework
+php56-php-phalcon3.x86_64 : Phalcon Framework
+php56-php-phpiredis.x86_64 : Client extension for Redis
+php56-php-phurple.x86_64 : PHP bindings for libpurple
+php56-php-pimple.x86_64 : A simple dependency injection container for PHP
+                        : (extension)
+php56-php-process.x86_64 : Modules for PHP script using system process
+                         : interfaces
+php56-php-pspell.x86_64 : A module for PHP applications for using pspell
+                        : interfaces
+php56-php-recode.x86_64 : A module for PHP applications for using the recode
+                        : library
+php56-php-smbclient.x86_64 : PHP wrapper for libsmbclient
+php56-php-snappy.x86_64 : Snappy Extension for PHP
+php56-php-snmp.x86_64 : A module for PHP applications that query SNMP-managed
+                      : devices
+php56-php-soap.x86_64 : A module for PHP applications that use the SOAP protocol
+php56-php-suhosin.x86_64 : Suhosin is an advanced protection system for PHP
+                         : installations
+php56-php-tarantool.x86_64 : PHP driver for Tarantool/Box
+php56-php-tidy.x86_64 : Standard PHP module provides tidy library support
+php56-php-twig.x86_64 : The flexible, fast, and secure template engine for PHP
+php56-php-xcache.x86_64 : Fast, stable PHP opcode cacher
+php56-php-xml.x86_64 : A module for PHP applications which use XML
+php56-php-xmlrpc.x86_64 : A module for PHP applications which use the XML-RPC
+                        : protocol
+php56-php-zephir-parser.x86_64 : Zephir parser extension
+php56-php-zstd.x86_64 : Zstd Extension for PHP
+php56-uwsgi-plugin-php.x86_64 : uWSGI - Plugin for PHP support
+php56-xcache-admin.noarch : XCache Administration
+php56-xhprof.noarch : A Hierarchical Profiler for PHP - Web interface
+php56-zephir.noarch : Zephir language for creation of extensions for PHP.
+php56-zephir-parser.x86_64 : Zephir parser extension
+
+  Name and summary matches only, use "search all" for everything.

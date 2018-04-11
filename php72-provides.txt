@@ -1,0 +1,230 @@
+読み込んだプラグイン:fastestmirror, security
+Loading mirror speeds from cached hostfile
+ * base: ftp.iij.ad.jp
+ * epel: ftp.jaist.ac.jp
+ * extras: ftp.iij.ad.jp
+ * remi-safe: mirror.bebout.net
+ * updates: ftp.iij.ad.jp
+============================== N/S Matched: php72 ==============================
+php72-php-pecl-propro-devel.x86_64 : php72-php-pecl-propro developer files
+                                   : (header)
+php72-php-pecl-psr-devel.x86_64 : php72-php-pecl-psr developer files (header)
+php72-php-pecl-raphf-devel.x86_64 : php72-php-pecl-raphf developer files
+                                  : (header)
+php72-php-pecl-swoole-devel.x86_64 : php72-php-pecl-swoole developer files
+                                   : (header)
+php72-php-pecl-swoole2-devel.x86_64 : php72-php-pecl-swoole2 developer files
+                                    : (header)
+php72-php-pecl-xmldiff-devel.x86_64 : php72-php-pecl-xmldiff developer files
+                                    : (header)
+php72-php-pecl-yaconf-devel.x86_64 : php72-php-pecl-yaconf developer files
+                                   : (header)
+php72-runtime.x86_64 : Package that handles php72 Software Collection.
+php72-scldevel.x86_64 : Package shipping development files for php72
+php72.x86_64 : Package that installs PHP 7.2
+php72-build.x86_64 : Package shipping basic build configuration
+php72-php.x86_64 : PHP scripting language for creating dynamic web sites
+php72-php-ast.x86_64 : Abstract Syntax Tree
+php72-php-bcmath.x86_64 : A module for PHP applications for using the bcmath
+                        : library
+php72-php-brotli.x86_64 : Brotli Extension for PHP
+php72-php-channel-horde.noarch : Adds pear.horde.org channel to PEAR
+php72-php-cli.x86_64 : Command-line interface for PHP
+php72-php-common.x86_64 : Common files for PHP
+php72-php-componere.x86_64 : Composing PHP classes at runtime
+php72-php-dba.x86_64 : A database abstraction layer module for PHP applications
+php72-php-dbg.x86_64 : The interactive PHP debugger
+php72-php-devel.x86_64 : Files needed for building PHP extensions
+php72-php-embedded.x86_64 : PHP library for embedding in applications
+php72-php-enchant.x86_64 : Enchant spelling extension for PHP applications
+php72-php-fpm.x86_64 : PHP FastCGI Process Manager
+php72-php-gd.x86_64 : A module for PHP applications for using the gd graphics
+                    : library
+php72-php-gmp.x86_64 : A module for PHP applications for using the GNU MP
+                     : library
+php72-php-horde-horde-lz4.x86_64 : Horde LZ4 Compression Extension
+php72-php-imap.x86_64 : A module for PHP applications that use IMAP
+php72-php-interbase.x86_64 : A module for PHP applications that use
+                           : Interbase/Firebird databases
+php72-php-intl.x86_64 : Internationalization extension for PHP applications
+php72-php-ioncube-loader.x86_64 : Loader for ionCube Encoded Files with ionCube
+                                : 24 support
+php72-php-json.x86_64 : JavaScript Object Notation extension for PHP
+php72-php-ldap.x86_64 : A module for PHP applications that use LDAP
+php72-php-litespeed.x86_64 : LiteSpeed Web Server PHP support
+php72-php-lz4.x86_64 : LZ4 Extension for PHP
+php72-php-mbstring.x86_64 : A module for PHP applications which need multi-byte
+                          : string handling
+php72-php-mysqlnd.x86_64 : A module for PHP applications that use MySQL
+                         : databases
+php72-php-oci8.x86_64 : A module for PHP applications that use OCI8 databases
+php72-php-odbc.x86_64 : A module for PHP applications that use ODBC databases
+php72-php-opcache.x86_64 : The Zend OPcache
+php72-php-pdo.x86_64 : A database access abstraction module for PHP applications
+php72-php-pdo-dblib.x86_64 : PDO driver Microsoft SQL Server and Sybase
+                           : databases
+php72-php-pear.noarch : PHP Extension and Application Repository framework
+php72-php-pecl-amqp.x86_64 : Communicate with any AMQP compliant server
+php72-php-pecl-apcu.x86_64 : APC User Cache
+php72-php-pecl-apcu-bc.x86_64 : APCu Backwards Compatibility Module
+php72-php-pecl-apcu-devel.x86_64 : APCu developer files (header)
+php72-php-pecl-apfd.x86_64 : Always Populate Form Data
+php72-php-pecl-apm.x86_64 : Alternative PHP Monitor
+php72-php-pecl-bitset.x86_64 : BITSET library
+php72-php-pecl-cassandra.x86_64 : DataStax PHP Driver for Apache Cassandra
+php72-php-pecl-cmark.x86_64 : CommonMark extension
+php72-php-pecl-couchbase2.x86_64 : Couchbase Server PHP extension
+php72-php-pecl-crypto.x86_64 : Wrapper for OpenSSL Crypto Library
+php72-php-pecl-dbase.x86_64 : dBase database file access functions
+php72-php-pecl-dio.x86_64 : Direct I/O functions
+php72-php-pecl-druid.x86_64 : A Druid driver for PHP
+php72-php-pecl-ds.x86_64 : Data Structures for PHP
+php72-php-pecl-eio.x86_64 : Provides interface to the libeio library
+php72-php-pecl-env.x86_64 : Load environment variables
+php72-php-pecl-ev.x86_64 : Provides interface to libev library
+php72-php-pecl-event.x86_64 : Provides interface to libevent library
+php72-php-pecl-fann.x86_64 : Wrapper for FANN Library
+php72-php-pecl-gearman.x86_64 : PHP wrapper to libgearman
+php72-php-pecl-gender.x86_64 : Gender Extension
+php72-php-pecl-geoip.x86_64 : Extension to map IP addresses to geographic places
+php72-php-pecl-geospatial.x86_64 : PHP Extension to handle common geospatial
+                                 : functions
+php72-php-pecl-gmagick.x86_64 : Provides a wrapper to the GraphicsMagick library
+php72-php-pecl-gnupg.x86_64 : Wrapper around the gpgme library
+php72-php-pecl-hprose.x86_64 : Hprose for PHP
+php72-php-pecl-hrtime.x86_64 : High resolution timing
+php72-php-pecl-http.x86_64 : Extended HTTP support
+php72-php-pecl-http-devel.x86_64 : Extended HTTP support developer files
+                                 : (header)
+php72-php-pecl-igbinary.x86_64 : Replacement for the standard PHP serializer
+php72-php-pecl-igbinary-devel.x86_64 : Igbinary developer files (header)
+php72-php-pecl-imagick.x86_64 : Extension to create and modify images using
+                              : ImageMagick
+php72-php-pecl-imagick-devel.x86_64 : imagick extension developer files (header)
+php72-php-pecl-inotify.x86_64 : Inotify
+php72-php-pecl-ip2location.x86_64 : Get geo location information of an IP
+                                  : address
+php72-php-pecl-json-post.x86_64 : JSON POST handler
+php72-php-pecl-jsond.x86_64 : JavaScript Object Notation
+php72-php-pecl-jsond-devel.x86_64 : JSOND developer files (header)
+php72-php-pecl-krb5.x86_64 : Kerberos authentification extension
+php72-php-pecl-krb5-devel.x86_64 : Kerberos extension developer files (header)
+php72-php-pecl-leveldb.x86_64 : LevelDB PHP bindings
+php72-php-pecl-libsodium.x86_64 : Wrapper for the Sodium cryptographic library
+php72-php-pecl-lua.x86_64 : Embedded lua interpreter
+php72-php-pecl-lzf.x86_64 : Extension to handle LZF de/compression
+php72-php-pecl-mailparse.x86_64 : PHP PECL package for parsing and working with
+                                : email messages
+php72-php-pecl-mcrypt.x86_64 : Bindings for the libmcrypt library
+php72-php-pecl-memcache.x86_64 : Extension to work with the Memcached caching
+                               : daemon
+php72-php-pecl-memcached.x86_64 : Extension to work with the Memcached caching
+                                : daemon
+php72-php-pecl-memprof.x86_64 : Memory usage profiler
+php72-php-pecl-mogilefs.x86_64 : PHP client library to communicate with the
+                               : MogileFS storage
+php72-php-pecl-molten.x86_64 : Extension for application tracing
+php72-php-pecl-mongodb.x86_64 : MongoDB driver for PHP
+php72-php-pecl-msgpack.x86_64 : API for communicating with MessagePack
+                              : serialization
+php72-php-pecl-msgpack-devel.x86_64 : MessagePack developer files (header)
+php72-php-pecl-mustache.x86_64 : Mustache templating language
+php72-php-pecl-mysql.x86_64 : MySQL database access functions
+php72-php-pecl-nsq.x86_64 : PHP extension for NSQ client
+php72-php-pecl-oauth.x86_64 : PHP OAuth consumer extension
+php72-php-pecl-opencensus.x86_64 : A stats collection and distributed tracing
+                                 : framework
+php72-php-pecl-parle.x86_64 : Parsing and lexing
+php72-php-pecl-pcs.x86_64 : PHP Code Service
+php72-php-pecl-pcs-devel.x86_64 : PHP Code Service (header)
+php72-php-pecl-pdflib.x86_64 : Package for generating PDF files
+php72-php-pecl-propro.x86_64 : Property proxy
+php72-php-pecl-protobuf.x86_64 : Mechanism for serializing structured data
+php72-php-pecl-psr.x86_64 : PSR interfaces
+php72-php-pecl-radius.x86_64 : Radius client library
+php72-php-pecl-raphf.x86_64 : Resource and persistent handles factory
+php72-php-pecl-rar.x86_64 : PHP extension for reading RAR archives
+php72-php-pecl-rdkafka.x86_64 : Kafka client based on librdkafka
+php72-php-pecl-redis.x86_64 : Extension for communicating with the Redis
+                            : key-value store
+php72-php-pecl-redis4.x86_64 : Extension for communicating with the Redis
+                             : key-value store
+php72-php-pecl-ref.x86_64 : Soft and Weak references support in PHP
+php72-php-pecl-request.x86_64 : Server-side request and response objects
+php72-php-pecl-rrd.x86_64 : PHP Bindings for rrdtool
+php72-php-pecl-scrypt.x86_64 : Scrypt hashing function
+php72-php-pecl-seaslog.x86_64 : A effective,fast,stable log extension for PHP
+php72-php-pecl-selinux.x86_64 : SELinux binding for PHP scripting language
+php72-php-pecl-solr2.x86_64 : API orientée objet pour Apache Solr
+php72-php-pecl-sphinx.x86_64 : PECL extension for Sphinx SQL full-text search
+                             : engine
+php72-php-pecl-ssdeep.x86_64 : Wrapper for libfuzzy library
+php72-php-pecl-ssh2.x86_64 : Bindings for the libssh2 library
+php72-php-pecl-stackdriver-debugger.x86_64 : Investigate your code behavior in
+                                           : production
+php72-php-pecl-stats.x86_64 : Routines for statistical computation
+php72-php-pecl-stomp.x86_64 : Stomp client extension
+php72-php-pecl-swoole.x86_64 : PHP's asynchronous concurrent distributed
+                             : networking framework
+php72-php-pecl-swoole-serialize.x86_64 : Fast and Small serialize
+php72-php-pecl-swoole2.x86_64 : PHP's asynchronous concurrent distributed
+                              : networking framework
+php72-php-pecl-sync.x86_64 : Named and unnamed synchronization objects
+php72-php-pecl-taint.x86_64 : XSS code sniffer
+php72-php-pecl-tcpwrap.x86_64 : Tcpwrappers binding
+php72-php-pecl-termbox.x86_64 : A termbox wrapper for PHP
+php72-php-pecl-timecop.x86_64 : Time travel and freezing extension
+php72-php-pecl-trace.x86_64 : Trace is a low-overhead tracing tool for PHP
+php72-php-pecl-trader.x86_64 : Technical Analysis for traders
+php72-php-pecl-translit.x86_64 : Transliterates non-latin character sets to
+                               : latin
+php72-php-pecl-uopz.x86_64 : User Operations for Zend
+php72-php-pecl-uploadprogress.x86_64 : An extension to track progress of a file
+                                     : upload
+php72-php-pecl-uuid.x86_64 : Universally Unique Identifier extension for PHP
+php72-php-pecl-vld.x86_64 : Dump the internal representation of PHP scripts
+php72-php-pecl-weakref.x86_64 : Implementation of weak references
+php72-php-pecl-xattr.x86_64 : Extended attributes
+php72-php-pecl-xdebug.x86_64 : PECL package for debugging PHP scripts
+php72-php-pecl-xdiff.x86_64 : File differences/patches
+php72-php-pecl-xmldiff.x86_64 : XML diff and merge
+php72-php-pecl-xxtea.x86_64 : XXTEA encryption algorithm extension for PHP
+php72-php-pecl-yac.x86_64 : Lockless user data cache
+php72-php-pecl-yaconf.x86_64 : Yet Another Configurations Container
+php72-php-pecl-yaf.x86_64 : Yet Another Framework
+php72-php-pecl-yaml.x86_64 : PHP Bindings for yaml
+php72-php-pecl-yar.x86_64 : Light, concurrent RPC framework
+php72-php-pecl-yaz.x86_64 : Z39.50/SRU client
+php72-php-pecl-zip.x86_64 : Une extension de gestion des ZIP
+php72-php-pecl-zmq.x86_64 : ZeroMQ messaging
+php72-php-pgsql.x86_64 : A PostgreSQL database module for PHP
+php72-php-phalcon3.x86_64 : Phalcon Framework
+php72-php-phpiredis.x86_64 : Client extension for Redis
+php72-php-pinba.x86_64 : Client extension for Pinba statistics server
+php72-php-process.x86_64 : Modules for PHP script using system process
+                         : interfaces
+php72-php-pspell.x86_64 : A module for PHP applications for using pspell
+                        : interfaces
+php72-php-recode.x86_64 : A module for PHP applications for using the recode
+                        : library
+php72-php-smbclient.x86_64 : PHP wrapper for libsmbclient
+php72-php-snappy.x86_64 : Snappy Extension for PHP
+php72-php-snmp.x86_64 : A module for PHP applications that query SNMP-managed
+                      : devices
+php72-php-snuffleupagus.x86_64 : Security module for php7
+php72-php-soap.x86_64 : A module for PHP applications that use the SOAP protocol
+php72-php-sodium.x86_64 : Wrapper for the Sodium cryptographic library
+php72-php-tarantool.x86_64 : PHP driver for Tarantool/Box
+php72-php-tidy.x86_64 : Standard PHP module provides tidy library support
+php72-php-twig.noarch : The flexible, fast, and secure template engine for PHP
+php72-php-wkhtmltox.x86_64 : HTML Converter
+php72-php-xml.x86_64 : A module for PHP applications which use XML
+php72-php-xmlrpc.x86_64 : A module for PHP applications which use the XML-RPC
+                        : protocol
+php72-php-zephir-parser.x86_64 : Zephir parser extension
+php72-php-zstd.x86_64 : Zstd Extension for PHP
+php72-uwsgi-plugin-php.x86_64 : uWSGI - Plugin for PHP support
+php72-zephir.noarch : Zephir language for creation of extensions for PHP.
+php72-zephir-parser.x86_64 : Zephir parser extension
+
+  Name and summary matches only, use "search all" for everything.
