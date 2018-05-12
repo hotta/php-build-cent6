@@ -1,0 +1,11 @@
+# roles/base/tasks/additional.yml
+---
+- name: add repository location
+  yum:
+    name: https://rpms.remirepo.net/enterprise/remi-release-6.rpm
+  become: yes
+
+- name: Install docker
+  yum:
+    name: docker-io
+  become: yes
