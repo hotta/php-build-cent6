@@ -9,3 +9,9 @@
   yum:
     name: docker-io
   become: yes
+
+- name: yum update
+  yum:
+    name: '*'
+    state: latest
+  become: yes

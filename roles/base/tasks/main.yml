@@ -12,12 +12,6 @@
     name: Asia/Tokyo
   become: yes
 
-- name: yum update
-  yum:
-    name: '*'
-    state: latest
-  become: yes
-
 - name: Install rpmbuild stuff
   yum:
     name: "{{ item }}"
